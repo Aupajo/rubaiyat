@@ -6,4 +6,5 @@ set :markdown, hard_wrap: true, smartypants: true
 configure :build do
   activate :minify_css
   activate :asset_hash
+  activate :relative_assets
 end
